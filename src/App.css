@@ -1,0 +1,445 @@
+
+.btn-update {
+  margin-left: 100px;
+  margin-bottom: 8px;
+}
+
+.btn-delete {
+  margin-left: 100px;
+}
+.update-js {
+  margin-left: -200px;
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 500px;
+}
+
+/* Define custom colors */
+:root {
+  --gold: #ffd700;
+  --black: #000000;
+}
+
+/* Navbar.css */
+
+.Post {
+  margin-right: 90px;
+justify-content: space-between;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  background-color: black;
+  color: gold;
+}
+.Update {
+
+  margin-left: -90px;
+  height: 40px;
+  width: 300px;
+  font-weight: bold;
+  background-color: black;
+  color: gold;
+}
+.navbar{
+  margin-top: -120px;
+}
+.container-fluid {
+  height: 60px;
+}
+/* PostData.css */
+.sell-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid var(--gold);
+  border-radius: 5px;
+  animation: slide-in 0.5s ease-out; /* Add slide-in animation */
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 200%;
+  margin-left: -280px;
+}
+.Submit {
+  width: 100%;
+  margin-left: -1px;
+}
+
+input[type="text"],
+input[type="file"],
+button {
+  padding: 10px;
+  border: 1px solid var(--gold);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+button:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: var(--gold);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+/* Home.css */
+
+.btn-primary {
+  background-color: var(
+    --gold
+  ); /* Gold is used as an example, replace with your desired color */
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Add background-color transition */
+}
+
+.btn-primary:hover {
+  background-color: #ffd700; /* Lighter gold is used as an example, replace with your desired color */
+}
+.product-card {
+  border: 1px solid var(--gold);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image .pic-1 {
+  width: 100%;
+  height: 300px;
+  display: block;
+  border-radius: 5px;
+}
+
+.product-content {
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--gold);
+  color: #fff;
+  border-radius: 3px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.detail-container {
+  max-width: 400px;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.detail-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.detail-info {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.detail-item {
+  margin-bottom: 10px;
+}
+
+.detail-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-grid {
+  margin-bottom: 30px;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.product-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.des {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.fa:hover {
+  color: blue;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="file"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+  margin-left: 500px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/*Reguster page*/
+/* RegisterPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  background-color: lightblue; /* Light blue background */
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.button-container {
+  position: relative;
+  right: 380px;
+}
+
+.input-container input[type="file"] {
+  width: auto;
+}
+
+.link-container {
+  margin-top: 10px;
+}
+
+.link-container a {
+  color: darkblue;
+  cursor: pointer;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+
+/* logincss*/
+/* LoginPage.css */
+
+body {
+  margin-top: 120px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightblue; /* Light blue background */
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkblue; /* Dark blue button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #001f3f; /* Darker shade of blue on hover */
+}
+
+.link-container {
+  margin-top: 10px;
+}
+h1 {
+  color: lightblue;
+}
+
+.link-container a {
+  color: darkblue;
+  cursor: pointer;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logout{
+  margin-left: -0px;
+  width: 100px;
+}
